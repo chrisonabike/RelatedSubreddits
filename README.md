@@ -14,23 +14,41 @@ https://bigquery.cloud.google.com/table/fh-bigquery:reddit_comments.2017_04
 
 The zipped file is ~7.5 Gb and extracts to ~41Gb. There are roughly 77.5 million comments in the dataset.
 Each line is a text representation of a python dictionary where each entry relates to a single comment made by a user. The keys are undordered but each entry contains the following fields:
+
 subreddit: string
+
 edited: boolean
+
 controversiality: int
+
 can_gild: boolean
+
 author_flair_css_class: string
+
 subreddit_id: string
+
 parent_id: string
+
 body: string
+
 score: int
+
 author: string
+
 gilded: int
+
 retrieved_on: int
+
 link_id: string
+
 stickied: boolean
+
 id: string
+
 created_utc: int
+
 author_flair_text: string
+
 distinguished: string
 
 
