@@ -4,6 +4,8 @@ Find which subreddits are related by user comments
 # Preliminaries #
 This project is the result of class work done for my masters degree in analytics. 
 The focus was to create a project to utilize map/reduce methodologies to work with Hadoop streaming.
+The mapper and reducer are designed to read the data via the command line as if it were streaming. 
+Through the command line, i wrote the data to another file that is then analyzed in the RelatedSubreddits notebook.
 
 # Purpose #
 Map which subreddits users comment on, their associated comment scores (positive or negative), and understand how individual subreddits are related to each other based on user actions. 
